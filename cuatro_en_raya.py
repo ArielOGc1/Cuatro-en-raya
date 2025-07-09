@@ -101,3 +101,7 @@ class Cuatroenraya:
                 print("\n\nGanador el jugador {}!!\n\n".format(self._turno))
                 self.mostrar_tablero()
                 break
+
+juego= Cuatroenraya(6,7)
+juego.jugar()
+                
